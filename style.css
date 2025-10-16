@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+img {
+  height: auto;
+}
 :root {
   --primary-color: #8b5cf6;
   --background-color: #0f172a;
@@ -58,8 +60,8 @@ main {
   justify-content: end;
 }
 .hero img {
-  width: 200px;
-  height: 100%;
+  width: 265px;
+  height: auto;
   border-radius: 13px 57px 30px 55px;
   margin-right: 40px;
 
@@ -85,6 +87,9 @@ main {
 }
 .social a:hover {
   color: var(--primary-color);
+}
+.ornageimg {
+  width: 100px;
 }
 .social a > i {
   padding: 5px;
@@ -213,7 +218,6 @@ h2 {
   width: 200px;
   border-radius: 20px;
   margin-top: 20px;
-
 }
 .skill:hover {
   background: rgba(139, 92, 246, 0.2);
@@ -292,11 +296,18 @@ button:hover {
     opacity: 1;
     filter: brightness(1);
   }
-      section {
-        padding: 4rem 1rem;
-    }
-    header {
+  section {
+    padding: 4rem 1rem;
+  }
+  header {
     background: rgb(11 20 38 / 80%);
-    
+  }
+  .ancor{
+    align-items: center !important;
+    display: flex;
+    margin-bottom: 20px !important;
+  }
+  .social p {
+   margin-bottom: 10px !important;
 }
 }
