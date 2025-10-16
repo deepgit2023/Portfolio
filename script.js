@@ -158,34 +158,34 @@ window.addEventListener("resize", () => {
 animateParticles();
 
 // gsap animation for project cards
-const tl = gsap.timeline({
-  repeat: -1,
-  yoyo: true
-});
-tl.to(".project-card", {
-  x: 50,
-  y: 50,
-  duration: 1,
-  ease: "bounce"
-})
-  .to(".project-card", {
-    x: -50,
-    y: 50,
-    duration: 1,
-    ease: "bounce"
-  })
-  .to(".project-card", {
-    x: 50,
-    y: -50,
-    duration: 1,
-    ease: "bounce"
-  })
-  .to(".project-card", {
-    x: -50,
-    y: -50,
-    duration: 1,
-    ease: "bounce"
-  });
+// const tl = gsap.timeline({
+//   repeat: -1,
+//   yoyo: true
+// });
+// tl.to(".project-card", {
+//   x: 50,
+//   y: 50,
+//   duration: 1,
+//   ease: "bounce"
+// })
+//   .to(".project-card", {
+//     x: -50,
+//     y: 50,
+//     duration: 1,
+//     ease: "bounce"
+//   })
+//   .to(".project-card", {
+//     x: 50,
+//     y: -50,
+//     duration: 1,
+//     ease: "bounce"
+//   })
+//   .to(".project-card", {
+//     x: -50,
+//     y: -50,
+//     duration: 1,
+//     ease: "bounce"
+//   });
 
   gsap.to(".animate", {
     y: -10,        // Moves up
