@@ -9,7 +9,7 @@ let mouseY = 0;
 function init() {
     // Scene setup
     scene = new THREE.Scene();
-    camera = new THREE.PerspectiveCamera(55, window.innerWidth / window.innerHeight, 0.1, 1000);
+    camera = new THREE.PerspectiveCamera(65, window.innerWidth / window.innerHeight, 0.1, 1000);
     renderer = new THREE.WebGLRenderer({
         canvas: document.querySelector('#bg'),
         alpha: true,
@@ -189,7 +189,7 @@ animateParticles();
 
   gsap.to(".animate", {
     y: -10,        // Moves up
-    color: "#ffffff", // Changes color to red
+    color: "#c024ff", // Changes color to 
     duration: 2, 
     repeat: -1,    // Infinite loop
     yoyo: true,    // Moves back and forth
